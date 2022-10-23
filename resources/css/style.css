@@ -6,13 +6,10 @@
 }
 
 body {
-   
- 
+    background-color: rgb(21, 20, 20);
     font-size: 16px;
     font-family: 'Helvetica', sans-serif;
     margin: 0;
-   
-    
 }
 h1 {
     font-family: 'Kaushan Script', cursive;
@@ -20,7 +17,7 @@ h1 {
     margin: 15px;
 }
 header {
-    background-color: rgb(12, 12, 30);
+   
     color: wheat;
     display: flex;
     justify-content: space-between;
@@ -31,7 +28,6 @@ header {
 }
 
 ul a:hover {
-    
     color: wheat;
     cursor: pointer;
 }
@@ -65,18 +61,12 @@ li a {
     background-image: url("../images/canion-mountain.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    
     height: 600px;
-   
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    
     color: wheat;
-    text-align: center;
-    
-    
 }
 .about-me {
     word-spacing: 2px;
@@ -84,8 +74,5 @@ li a {
     padding: 20px;
     max-width: 600px;
     font-size: 1.2rem;
-    font-weight: 500;
-    margin-top: -20px;
-
 }
 
