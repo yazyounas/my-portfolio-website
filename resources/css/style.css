@@ -1,12 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
    
-    background-color: black;
+ 
     font-size: 16px;
     font-family: 'Helvetica', sans-serif;
     margin: 0;
+   
+    
 }
 h1 {
     font-family: 'Kaushan Script', cursive;
@@ -14,24 +20,28 @@ h1 {
     margin: 15px;
 }
 header {
-    
+    background-color: rgb(12, 12, 30);
     color: wheat;
     display: flex;
     justify-content: space-between;
-    position: fixed;
+    position: sticky;
     left: 0;
     top: 0;
     width: 100%;
 }
+
 ul a:hover {
-    color: white;
+    
+    color: wheat;
     cursor: pointer;
 }
+
 
 ul {
     display: flex;
     margin: 20px;
     list-style-type: none;
+    clear: both;
 }
 
 
@@ -39,8 +49,43 @@ li a {
     text-decoration: none;
     margin: 30px;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color:wheat;
     list-style-type: none;
+}
+.nav-btn {
+    border: 2px solid wheat;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 5px
+}
+
+#intro-section {
+ 
+    background-image: url("../images/canion-mountain.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 600px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    color: wheat;
+    text-align: center;
+    
+    
+}
+.about-me {
+    word-spacing: 2px;
+    line-height: 35px;
+    padding: 20px;
+    max-width: 600px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: -20px;
+
 }
 
