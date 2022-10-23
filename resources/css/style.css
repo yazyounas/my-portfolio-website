@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+
+body {
+   
+    background-color: black;
+    font-size: 16px;
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+}
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2rem;
+    margin: 15px;
+}
+header {
+    
+    color: wheat;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+ul a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    margin: 20px;
+    list-style-type: none;
+}
+
+
+li a {
+    text-decoration: none;
+    margin: 30px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:wheat;
+    list-style-type: none;
+}
+
