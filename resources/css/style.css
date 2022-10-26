@@ -76,10 +76,76 @@ li a {
     max-width: 600px;
     font-size: 1.2rem;
 }
+#project-section {
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    color: wheat;
+    
+    
+    }
+.all-projects {
+    border: 1px solid white;
+    margin: 20px;
+    padding: 5px 5px 10px 5px;
+    background-color: white;
+    color: wheat;
+    border-radius: 25px;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    
+}
+img {
+    border-radius: 20px;
+}
+#skills-section {
+    text-align: center;
+}
+
+#skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-brands {
+    margin: 20px 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 i{
-    font-size: 50px;
-    background-color: black;
-    color: whitesmoke;
+    font-size: 90px;
+    background-color: rgb(21, 20, 20);
+    color: wheat;
     
 }
 
