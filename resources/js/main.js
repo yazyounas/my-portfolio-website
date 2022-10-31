@@ -34,6 +34,7 @@ for (let i=0; i < navButtons.length; i++) {
       this.style.color = "";
     });
 }
+document.getElementById('current-year').innerHTML=new Date().getFullYear();
 
 
 /*

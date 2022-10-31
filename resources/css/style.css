@@ -120,9 +120,11 @@ img {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 50px;
+    padding: 40px;
 }
 .fa-brands {
-    margin: 20px 90px;
+    margin: auto;
 }
 #form {
     background-image: url("../images/canion-mountain.jpeg");
@@ -173,6 +175,12 @@ i{
     color: wheat;
     
 }
+
+footer {
+    
+    padding: 5px;
+    font-style: italic;
+}
 @media only screen and (max-width: 854px) {
     
 
@@ -196,6 +204,20 @@ i{
         height: auto;
     }
 }
+@media only screen and (max-width: 645px) {
+   ul{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         align-items: center;
+         width: auto;
+     }
+     #intro-section {
+         display: block;
+         width: auto;
+         height: auto;
+     }
+ }
 
 @media only screen and (max-width: 480px) {
    header {
@@ -212,13 +234,17 @@ i{
     .nav-btn {
         text-align: center;
         
-        
-    }
-    
+}
 
+}
+
+
+
+
+    
    
     
 
     
-}
+
 
