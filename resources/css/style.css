@@ -77,13 +77,15 @@ li a {
     align-items: center;
     justify-content: space-evenly;
     color: wheat;
+    font-family: 'Kaushan Script', cursive;
 }
 .about-me {
     word-spacing: 2px;
     line-height: 35px;
     padding: 20px;
     max-width: 600px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 900;
 }
 #project-section {
     text-align: center;
